@@ -1,10 +1,12 @@
-import { createSelector } from '@ngrx/store';
-import { AuthStateInterface } from '../types/authState.interface';
+// Example code since ngrx can do this for us
 
-export const selectFeature = (state: { auth: AuthStateInterface }) =>
-  state.auth;
+// import { createSelector } from '@ngrx/store';
+// import { AuthStateInterface } from '../types/authState.interface';
 
-export const selectIsSubmitting = createSelector(
-  selectFeature,
-  (state) => state.isSubmitting
-);
+// export const selectFeature = (state: { auth: AuthStateInterface }) =>
+//   state.auth;
+
+// export const selectIsSubmitting = createSelector(
+//   selectFeature,
+//   (state) => state.isSubmitting
+// );
